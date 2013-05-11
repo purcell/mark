@@ -25,8 +25,9 @@ mark ring. You can also use the `forward-mark' and `backward-mark' commands to n
 the mark ring. 
 * Installation
 
- - If you have [[http://www.marmalade-repo.org/][marmalade-repo.org]], this mark is part of the emacs packages you can install.  
-   Just type M-x package-install mark marmalade 
+ - If you have package.el set up to use [[http://www.marmalade-repo.org/][marmalade]] or
+   [[http://melpa.milkbox.net/][MELPA]], this mark is part of the emacs packages you can install.  
+   Just type M-x package-install mark
  - Otherwise download the library from here Lisp:mark.el, and put it in a directory in the emacs load path, 
    like ~/.emacs.d
  - Add (require 'mark) in your ~/.emacs file
